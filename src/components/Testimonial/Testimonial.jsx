@@ -13,7 +13,7 @@ const testimonialData = [
     id: 1,
     name: "Mehnoors Design",
     text: "Social Zone has transformed my business with their tailored digital marketing strategies. Their expertise in social media, SEO, and content creation has boosted my online presence and brought in more customers. Highly professional and results-driven – I highly recommend them!",
-    img: Brand1,
+    img: Brand5,
   },
   {
     id: 2,
@@ -25,19 +25,19 @@ const testimonialData = [
     id: 3,
     name: "Paanshala Team",
     text: "Partnering with Social Zone has been a game changer for Paanshala. Their expertise in digital marketing helped us increase our online presence and reach the right audience. The team’s creativity and dedication have delivered impressive results. Highly recommend their services!",
-    img: Brand3,
+    img: Brand1,
   },
   {
     id: 4,
     name: "Divine Cafe",
     text: "Working with Social Zone has been a game-changer for Divine Cafe. Their digital marketing strategies helped us increase visibility and attract more customers. The team is professional, creative, and delivers great results. Highly recommend their services!",
-    img: Brand4,
+    img: Brand3,
   },
   {
     id: 5,
     name: "Lets Learn Institute",
     text: "Social Zone has been a fantastic partner for Lets Learn Institute. Their digital marketing expertise has helped us reach a wider audience and grow our brand. The team is efficient, creative, and always focused on results. We highly recommend their services!",
-    img: Brand5,
+    img: Brand4,
   },
 ];
 
