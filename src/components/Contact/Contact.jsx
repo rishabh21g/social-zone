@@ -1,15 +1,15 @@
 import React from "react";
-import contact from "../../assets/website/contact.png"
+import contact from "../../assets/website/hero4.webp"
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-gray-100 dark:bg-black dark:text-white py-12 w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-6"> 
+    <div id="contact" className="bg-gray-100 dark:bg-gray-950 rounded-lg dark:text-white py-12 w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-7"> 
     <div className="container mx-auto "> 
         {/* Header */}
         <div className="pb-8 text-center space-y-3">
             <h1 
                 data-aos="fade-up" 
-                className="text-3xl font-semibold text-primary dark:text-primary"
+                className="text-4xl  text-primary dark:text-primary font-extrabold"
             >
                 Get in Touch
             </h1>
@@ -25,14 +25,14 @@ const Contact = () => {
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-8 sm:gap-12 sm:place-items-center">
             {/* Left Side - Image */}
             <div 
-                className="w-full lg:w-2/5 hidden lg:block" 
+                className="w-1/2 hidden lg:block" 
                 data-aos="fade-right" 
                 data-aos-delay="200"
             >
                 <img 
                     src={contact} 
                     alt="Contact Us" 
-                    className="rounded-lg shadow-lg w-full" 
+                    className="rounded-lg shadow-lg w-full lg:h-auto md:h-auto sm:h-[308px] sm:min-w-[400px] md:min-w-[500px] lg:min-w-[500px]" 
                 />
             </div>
 
